@@ -12,8 +12,8 @@
         },
         "vscode": {
             "settings": {
-                "terminal.integrated.shell.linux": "/bin/bash",
-                "python.defaultInterpreterPath": "/workspace/.venv/bin/python",
+                "terminal.integrated.shell.linux": "/bin/zsh",
+                "python.defaultInterpreterPath": "/opt/conda/bin/python",
                 "python.linting.enabled": true,
                 "python.linting.pylintEnabled": false,
                 "python.formatting.provider": "none",
@@ -28,10 +28,9 @@
                 "ruff.enable": true,
                 "ruff.organizeImports": true,
                 "ruff.fixAll": true,
-                "workbench.colorTheme": "LinkedIn Learning Dark"
+                "workbench.colorTheme": "GitHub Dark"
             },
             "extensions": [
-                "linkedinlearning.linkedinlearning-vscode-theme",
                 "ms-toolsai.jupyter",
                 "ms-python.python",
                 "bierner.docs-view",

@@ -11,7 +11,7 @@ services:
     tty: true
 
     environment:
-      - PYTHONPATH=/workspace/modules
+      - PYTHONPATH=/workspace:/workspace/modules:$PYTHONPATH
       - PYTHON_VERSION=3.12
       - PYTHONUNBUFFERED=1
 
