@@ -51,11 +51,6 @@
             ]
         }
     },
-    "hostRequirements": {
-        "storage": "32gb",
-        "cpus": 4,
-        "memory": "16gb"
-    },
     "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc",
     "postAttachCommand": "git pull --all",
     "postCreateCommand": "mkdir -p ~/.ipython/profile_default/startup && cp .devcontainer/pandas-startup.py ~/.ipython/profile_default/startup/00-pandas-options.py"
