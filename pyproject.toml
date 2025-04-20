@@ -6,7 +6,6 @@ authors = [{ name = "Jesus Lopez", email = "jesus.lopez@datons.ai" }]
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "ipykernel",
     "papermill",
     "pandas",
     "matplotlib",
@@ -21,8 +20,6 @@ dependencies = [
     "langchain-chroma",
     "langchain-huggingface",
     "chromadb",
-    "dataframe-image",
-    "pymilvus",
     "langchain-community",
 ]
 
