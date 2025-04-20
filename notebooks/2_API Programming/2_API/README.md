@@ -1,0 +1,1 @@
+https://sotastica.hashnode.dev/02-load-data-from-apis-to-a-pandas-dataframe-in-python

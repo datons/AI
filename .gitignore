@@ -1,0 +1,51 @@
+# Ignore sensitive environment files
+.env.secrets
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+.env
+.venv
+ENV/
+
+# Direnv
+.direnv/
+
+.env*
+.DS_Store
+.ipynb_checkpoints
+docs
+.2_RAG
+.sketch
+
+!.env.public
+!.envrc
+!.envs/.env
+
+chromadb
+notebooks/4_RAG/3_Chat CLI
+
+notebooks/4_RAG/2_VectorDB/1C_Upsert.ipynb
+
+.archive

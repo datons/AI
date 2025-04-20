@@ -1,0 +1,1 @@
+Find the weather forecast for {LOCATION}, from {DATE} to the following {NEXT_DAYS} days.

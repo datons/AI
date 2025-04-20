@@ -1,0 +1,3 @@
+On {DATE}, the financial asset with ticker {TICKER} recorded a return of {RETURN}%, calculated as the percentage change between the closing price on that date and the previous corresponding date according to the defined calculation frequency: {FREQUENCY} (for example: daily D, monthly M, quarterly Q, or yearly Y).
+
+Explain the reasons that could justify this extreme movement, using relevant news published around that date. Provide a well-founded explanation, the publication date of the news, and a link to the source.
