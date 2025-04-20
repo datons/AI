@@ -5,3 +5,5 @@ certificates
 __pycache__
 .env
 modules.egg-info
+.venv
+.cache

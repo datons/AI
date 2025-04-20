@@ -49,3 +49,6 @@ notebooks/4_RAG/3_Chat CLI
 notebooks/4_RAG/2_VectorDB/1C_Upsert.ipynb
 
 .archive
+.venv
+**/__pycache__
+**/*.pyc

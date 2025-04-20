@@ -1,19 +1,37 @@
 {
-    "name": "DevContainer",
-    "dockerComposeFile": "../docker-compose.yml",
-    "service": "server",
+    "name": "Python 3",
+    "dockerComposeFile": "docker-compose.yaml",
+    "service": "workspace",
     "workspaceFolder": "/workspace",
     "shutdownAction": "none",
-    "postCreateCommand": "mkdir -p ~/.ipython/profile_default/startup && cp .devcontainer/pandas-startup.py ~/.ipython/profile_default/startup/00-pandas-options.py && direnv allow",
     "customizations": {
         "codespaces": {
-            "openFiles": []
+            "openFiles": [
+                "README.md"
+            ]
         },
         "vscode": {
-            "settings": "./settings.json",
-            "remoteUser": "vscode",
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash",
+                "python.defaultInterpreterPath": "/usr/local/bin/python",
+                "python.linting.enabled": true,
+                "python.linting.pylintEnabled": false,
+                "python.formatting.provider": "none",
+                "[python]": {
+                    "editor.defaultFormatter": "charliermarsh.ruff",
+                    "editor.formatOnSave": true,
+                    "editor.codeActionsOnSave": {
+                        "source.fixAll": "explicit",
+                        "source.organizeImports": "explicit"
+                    }
+                },
+                "ruff.enable": true,
+                "ruff.organizeImports": true,
+                "ruff.fixAll": true,
+                "workbench.colorTheme": "LinkedIn Learning Dark"
+            },
             "extensions": [
-                "mkhl.direnv",
+                "linkedinlearning.linkedinlearning-vscode-theme",
                 "ms-toolsai.jupyter",
                 "ms-python.python",
                 "bierner.docs-view",
@@ -32,5 +50,8 @@
                 "vscode-icons-team.vscode-icons"
             ]
         }
-    }
+    },
+    "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc",
+    "postAttachCommand": "git pull --all",
+    "postCreateCommand": "mkdir -p ~/.ipython/profile_default/startup && cp .devcontainer/pandas-startup.py ~/.ipython/profile_default/startup/00-pandas-options.py"
 }
