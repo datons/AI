@@ -1,0 +1,9 @@
+location,date,description,temperature_min,temperature_max,temperature_avg,url
+"New York City, NY",2025-04-20,Partly cloudy,9.0,17.0,13.0,https://meteum.ai/new-york/month/april
+"New York City, NY",2025-04-21,Overcast,9.0,17.0,13.0,https://meteum.ai/new-york/month/april
+"New York City, NY",2025-04-22,Rain,8.0,16.0,12.0,https://meteum.ai/new-york/month/april
+"New York City, NY",2025-04-23,Overcast,9.0,16.0,12.5,https://meteum.ai/new-york/month/april
+"New York City, NY",2025-04-24,Clear,9.0,17.0,13.0,https://meteum.ai/new-york/month/april
+"New York City, NY",2025-04-25,Partly cloudy,8.0,16.0,12.0,https://meteum.ai/new-york/month/april
+"New York City, NY",2025-04-26,Rain,9.0,17.0,13.0,https://meteum.ai/new-york/month/april
+"New York City, NY",2025-04-27,Rain,9.0,16.0,12.5,https://meteum.ai/new-york/month/april
